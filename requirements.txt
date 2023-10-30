@@ -12,7 +12,7 @@ autopep8==2.0.4
 certifi==2023.7.22
 cffi==1.16.0
 charset-normalizer==3.3.1
-cleo==1.0.0a4
+cleo==2.0.0
 click==8.1.7
 click-default-group==1.2.4
 crashtest==0.3.1
