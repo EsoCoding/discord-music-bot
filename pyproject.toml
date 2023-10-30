@@ -17,8 +17,6 @@ classifiers = [
 "Homepage" = "https://github.com/EsoCoding/discord-music-bot"
 "Bug Tracker" = "https://github.com/EsoCoding/discord-music-bot/issues"
 
-# FILEPATH: /home/esocode/Projects/discord-music-bot/pyproject.toml
-
 [build-system]
 requires = ["setuptools", "wheel", "find_package"]
 build-backend = "setuptools.build_meta"
