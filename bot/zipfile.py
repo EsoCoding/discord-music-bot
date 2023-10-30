@@ -1,12 +1,3 @@
-# this class handles the zip 
-# process of the downloaded mp3 files.
-# the temp folder which is 
-# used to store the downloaded 
-# is the ctx.album_path where the files are
-# and the name of that new folder is ctx.album name
-# When finished zipping, check if zipfile really exist
-# and if the its at least a small size to be sure its not empty
-
 import os
 import zipfile
 import asyncio

@@ -2,3 +2,4 @@ discord
 streamrip
 logging
 validators
+python-dotenv

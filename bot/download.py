@@ -1,8 +1,8 @@
 from urllib.parse import urlparse
 from logging import Logger
 import threading
-from src.handle_url import HandleUrl
-from src.exceptions import AuthenticationFailed, NotExistingProvider
+from bot.handle_url import HandleUrl
+from bot.exceptions import AuthenticationFailed, NotExistingProvider
 import streamrip
 import os
 import asyncio

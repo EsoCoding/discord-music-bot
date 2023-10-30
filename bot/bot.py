@@ -8,11 +8,11 @@ from discord import Intents
 from discord.ext import commands
 
 # Import the logger, URLValidator, UniquePath,
-from src.handle_url import HandleUrl
-from src.path import Paths
-from src.download import DownloadStream
-from src.zipfile import ZipFile
-from src.uploader import Uploader
+from bot.handle_url import HandleUrl
+from bot.path import Paths
+from bot.download import Download
+from bot.zipfile import ZipFile
+from bot.uploader import Uploader
 
 
 # path lib set rootdir
@@ -28,8 +28,8 @@ class Bot(discord.Client):
         )
         self.handle_url = HandleUrl()
         self.paths = Paths()
-        self.stream = DownloadStream()
-        self.downloader = DownloadStream()
+        self.stream = Download()
+        self.downloader = Download()
         self.zipfile = ZipFile()
         self.uploader = Uploader()
 

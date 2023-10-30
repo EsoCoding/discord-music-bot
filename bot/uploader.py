@@ -1,6 +1,5 @@
 from io import BytesIO
-from modules.logger import Logger
-from inspect import currentframe
+from logging import Logger
 import aiohttp
 
 class Uploader:

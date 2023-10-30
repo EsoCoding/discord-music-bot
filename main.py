@@ -1,6 +1,6 @@
 # This class represents the MusicBot
 from dotenv import load_dotenv
-from src.bot import Bot
+from bot.bot import Bot
 from logging import Logger
 
 load_dotenv()

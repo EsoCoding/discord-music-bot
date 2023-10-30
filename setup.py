@@ -1,7 +1,7 @@
 import setuptools
 from setuptools import find_packages, setup
 
-setuptools.setup(name="src", packages=find_packages())
+setuptools.setup(name="discord-music-bot", packages=find_packages())
 
 
 setup(
