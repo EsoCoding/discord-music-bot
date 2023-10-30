@@ -1,0 +1,8 @@
+venv/
+build/
+discord_music_bot.egg-info/
+dist/
+.vscode/
+__pycache__
+*/__pycache__/
+music-dl-bot.log

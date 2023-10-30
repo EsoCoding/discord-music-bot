@@ -1,0 +1,28 @@
+[project]
+name = "discord-music-bot"
+version = "0.1.0"
+authors = [
+  { name="Jack Sparrow", email="dont@spam.me" },
+]
+description = "Discord music bot"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/EsoCoding/discord-music-bot"
+"Bug Tracker" = "https://github.com/EsoCoding/discord-music-bot/issues"
+
+# FILEPATH: /home/esocode/Projects/discord-music-bot/pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel", "find_package"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 150
+target-version = ['py38', 'py39','py310', 'py311']
