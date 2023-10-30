@@ -97,3 +97,8 @@ class Bot(discord.Client):
                 await ctx.send(f"Command not found: {error}")
 
         self.commands.run(os.environ.get("DISCORD_BOT_TOKEN"))
+
+
+if __name__ == "__main__":
+    bot = Bot()
+    bot.start()

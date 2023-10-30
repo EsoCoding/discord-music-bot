@@ -1,26 +1,19 @@
-[project]
+[tool.poetry]
 name = "discord-music-bot"
 version = "0.1.0"
-authors = [
-  { name="Jack Sparrow", email="dont@spam.me" },
-]
-description = "Discord music bot"
+description = ""
+authors = ["Captain Jack Sparrow <dont@spam.me>"]
 readme = "README.md"
-requires-python = ">=3.9"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-]
+packages = [{include = "Bot", from = "."}]
 
-[project.urls]
-"Homepage" = "https://github.com/EsoCoding/discord-music-bot"
-"Bug Tracker" = "https://github.com/EsoCoding/discord-music-bot/issues"
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22"
+logging = "^0.4.9"
+streamrip = "^1.9.7"
+urllib3 = "^2.0.7"
+validators="^0.22.0"
 
 [build-system]
-requires = ["setuptools", "wheel", "find_package"]
-build-backend = "setuptools.build_meta"
-
-[tool.black]
-line-length = 150
-target-version = ['py38', 'py39','py310', 'py311']
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
