@@ -4,9 +4,4 @@
 			"path": "."
 		}
 	],
-	"files": [
-		{
-			"path": "package.json"
-		}
-	]
 }
